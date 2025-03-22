@@ -34,7 +34,7 @@ O principal produto deste projeto é um dashboard interativo desenvolvido no Loo
 
 **[Acessar Dashboard](https://lookerstudio.google.com/reporting/0b659cca-54ad-466f-bb59-5370a8482497)**
 
-**[Acessar Apresentação](apresentacao/Apresentação-Análise do Abandono Escolar no Ensino Médio)**
+**[Acessar Apresentação](https://drive.google.com/file/d/1N_fDWLtlT34324M_vercECYzb-YXVMg1/view?usp=sharing)**
 
 ## Principais Insights
 
