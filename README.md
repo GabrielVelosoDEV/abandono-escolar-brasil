@@ -32,9 +32,7 @@ A pesquisa fundamenta-se em metodologia analítica robusta, integrando múltipla
 
 O principal produto deste projeto é um dashboard interativo desenvolvido no Looker Studio, permitindo exploração dinâmica dos dados e insights sobre o abandono escolar.
 
-**[Acessar Dashboard](https://lookerstudio.google.com/reporting/abandono-escolar-brasil)**
-
-![Preview do Dashboard](visualizacoes/dashboard/screenshots/dashboard_preview.png)
+**[Acessar Dashboard](https://lookerstudio.google.com/reporting/0b659cca-54ad-466f-bb59-5370a8482497)**
 
 ## Principais Insights
 
