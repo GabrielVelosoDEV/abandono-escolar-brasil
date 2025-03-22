@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Perfis de Abandono Escolar</text>
+  <text x="450" y="70" font-family="Arial" font-size="16" text-anchor="middle">Características Comparativas por Perfil</text>
+  
+  <!-- Gráfico de Radar -->
+  <g transform="translate(450, 380)">
+    <!-- Círculos de referência -->
+    <circle cx="0" cy="0" r="250" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="0" cy="0" r="200" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="0" cy="0" r="150" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Eixos -->
+    <line x1="0" y1="0" x2="0" y2="-250" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="216.5" y2="-125" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="216.5" y2="125" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="250" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="-216.5" y2="125" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="-216.5" y2="-125" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Rótulos de eixos -->
+    <text x="0" y="-270" font-family="Arial" font-size="14" text-anchor="middle">Baixo Desempenho</text>
+    <text x="236.5" y="-145" font-family="Arial" font-size="14" text-anchor="start">Reprovações</text>
+    <text x="236.5" y="145" font-family="Arial" font-size="14" text-anchor="start">Trabalho</text>
+    <text x="0" y="270" font-family="Arial" font-size="14" text-anchor="middle">Distorção Idade-Série</text>
+    <text x="-236.5" y="145" font-family="Arial" font-size="14" text-anchor="end">Baixa Renda</text>
+    <text x="-236.5" y="-145" font-family="Arial" font-size="14" text-anchor="end">Engajamento</text>
+    
+    <!-- Perfil 1: Acadêmico-Vulnerável -->
+    <polygon points="0,-220 190,-110 86.6,50 0,180 -130,75 -173,-100" fill="#a50f15" fill-opacity="0.3" stroke="#a50f15" stroke-width="2"/>
+    
+    <!-- Perfil 2: Trabalho-Estudo -->
+    <polygon points="0,-150 108,-62.5 195,112.5 0,200 -173,100 -108,-62.5" fill="#de2d26" fill-opacity="0.3" stroke="#de2d26" stroke-width="2"/>
+    
+    <!-- Perfil 3: Desmotivacional -->
+    <polygon points="0,-190 86.6,-50 130,75 0,150 -130,75 -190,-110" fill="#fc9272" fill-opacity="0.3" stroke="#fc9272" stroke-width="2"/>
+    
+    <!-- Perfil 4: Circunstancial-Familiar -->
+    <polygon points="0,-140 65,-37.5 86.6,50 0,220 -195,112.5 -65,-37.5" fill="#fcbba1" fill-opacity="0.3" stroke="#fcbba1" stroke-width="2"/>
+  </g>
+  
+  <!-- Legenda -->
+  <g transform="translate(730, 200)">
+    <text x="0" y="-20" font-family="Arial" font-size="16" font-weight="bold">Perfis de Abandono</text>
+    
+    <rect x="0" y="0" width="20" height="20" fill="#a50f15" fill-opacity="0.3" stroke="#a50f15" stroke-width="2"/>
+    <text x="30" y="15" font-family="Arial" font-size="14">Acadêmico-Vulnerável</text>
+    
+    <rect x="0" y="30" width="20" height="20" fill="#de2d26" fill-opacity="0.3" stroke="#de2d26" stroke-width="2"/>
+    <text x="30" y="45" font-family="Arial" font-size="14">Trabalho-Estudo</text>
+    
+    <rect x="0" y="60" width="20" height="20" fill="#fc9272" fill-opacity="0.3" stroke="#fc9272" stroke-width="2"/>
+    <text x="30" y="75" font-family="Arial" font-size="14">Desmotivacional</text>
+    
+    <rect x="0" y="90" width="20" height="20" fill="#fcbba1" fill-opacity="0.3" stroke="#fcbba1" stroke-width="2"/>
+    <text x="30" y="105" font-family="Arial" font-size="14">Circunstancial-Familiar</text>
+    
+    <text x="0" y="140" font-family="Arial" font-size="14" font-style="italic">Distribuição:</text>
+    <text x="30" y="160" font-family="Arial" font-size="14">35.2%</text>
+    <text x="30" y="180" font-family="Arial" font-size="14">26.8%</text>
+    <text x="30" y="200" font-family="Arial" font-size="14">22.1%</text>
+    <text x="30" y="220" font-family="Arial" font-size="14">15.9%</text>
+  </g>
+  
+  <!-- Fonte da informação -->
+  <text x="450" y="670" font-family="Arial" font-size="12" text-anchor="middle" fill="#666666">Projeto: Análise Multidimensional do Abandono Escolar no Ensino Médio Brasileiro</text>
+</svg>

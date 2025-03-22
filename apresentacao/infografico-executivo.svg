@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1800" width="1280" height="1800">
+  <!-- Fundo -->
+  <rect width="1280" height="1800" fill="#f5f5f5" />
+  
+  <!-- Cabeçalho -->
+  <rect width="1280" height="180" fill="#3949AB" />
+  <text x="640" y="80" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+    ANÁLISE DO ABANDONO ESCOLAR
+  </text>
+  <text x="640" y="130" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="white">
+    NO ENSINO MÉDIO BRASILEIRO
+  </text>
+  
+  <!-- Seção 1: O Problema -->
+  <rect x="40" y="220" width="1200" height="280" fill="white" rx="10" ry="10" stroke="#dddddd" stroke-width="2" />
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#3949AB">
+    O PROBLEMA
+  </text>
+  
+  <!-- Estatísticas Principais -->
+  <circle cx="220" cy="340" r="70" fill="#FF5252" />
+  <text x="220" y="330" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="white">
+    16,7%
+  </text>
+  <text x="220" y="355" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    Taxa média de
+  </text>
+  <text x="220" y="375" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    abandono
+  </text>
+  
+  <circle cx="440" cy="340" r="70" fill="#FFCA28" />
+  <text x="440" y="330" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#333333">
+    457 mil
+  </text>
+  <text x="440" y="355" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">
+    Estudantes que
+  </text>
+  <text x="440" y="375" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">
+    abandonam/ano
+  </text>
+  
+  <circle cx="660" cy="340" r="70" fill="#66BB6A" />
+  <text x="660" y="330" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="white">
+    63,4%
+  </text>
+  <text x="660" y="355" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    Taxa de conclusão
+  </text>
+  <text x="660" y="375" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    no prazo regular
+  </text>
+  
+  <!-- Mapa mini -->
+  <rect x="780" y="270" width="420" height="200" fill="#f9f9f9" rx="5" ry="5" />
+  <text x="990" y="295" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">
+    Disparidades Regionais (Taxa de Abandono)
+  </text>
+  
+  <!-- Mapa simplificado -->
+  <g transform="translate(800, 310) scale(0.25)">
+    <!-- Norte (18.4%) -->
+    <path d="M350,50 L550,100 L600,300 L450,350 L300,320 L250,200 Z" fill="#FF5252" stroke="#333333" stroke-width="2" />
+    
+    <!-- Nordeste (18.3%) -->
+    <path d="M600,100 L750,150 L750,300 L600,300 Z" fill="#FF7043" stroke="#333333" stroke-width="2" />
+    
+    <!-- Centro-Oeste (12.2%) -->
+    <path d="M450,350 L600,300 L600,450 L450,500 Z" fill="#FFCA28" stroke="#333333" stroke-width="2" />
+    
+    <!-- Sudeste (8.2%) -->
+    <path d="M600,300 L750,300 L750,450 L600,450 Z" fill="#66BB6A" stroke="#333333" stroke-width="2" />
+    
+    <!-- Sul (6.8%) -->
+    <path d="M600,450 L750,450 L700,550 L575,525 Z" fill="#42A5F5" stroke="#333333" stroke-width="2" />
+  </g>
+  
+  <!-- Legenda do mapa -->
+  <text x="965" y="320" font-family="Arial, sans-serif" font-size="14" text-anchor="left" fill="#333333">Norte: 18,4%</text>
+  <text x="965" y="345" font-family="Arial, sans-serif" font-size="14" text-anchor="left" fill="#333333">Nordeste: 18,3%</text>
+  <text x="965" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="left" fill="#333333">Centro-Oeste: 12,2%</text>
+  <text x="965" y="395" font-family="Arial, sans-serif" font-size="14" text-anchor="left" fill="#333333">Sudeste: 8,2%</text>
+  <text x="965" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="left" fill="#333333">Sul: 6,8%</text>
+  
+  <!-- Linha de separação -->
+  <line x1="40" y1="520" x2="1240" y2="520" stroke="#dddddd" stroke-width="3" />
+  
+  <!-- Seção 2: Determinantes -->
+  <rect x="40" y="540" width="1200" height="340" fill="white" rx="10" ry="10" stroke="#dddddd" stroke-width="2" />
+  <text x="70" y="580" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#3949AB">
+    DETERMINANTES PRINCIPAIS
+  </text>
+  
+  <!-- Gráfico de barras horizontal -->
+  <g transform="translate(70, 620)">
+    <!-- Eixo Y -->
+    <line x1="0" y1="0" x2="0" y2="220" stroke="#333333" stroke-width="2" />
+    
+    <!-- Fatores Socioeconômicos (42.7%) -->
+    <rect x="0" y="10" width="427" height="40" fill="#FF5252" rx="5" ry="5" />
+    <text x="15" y="35" font-family="Arial, sans-serif" font-size="16" fill="white">Fatores Socioeconômicos</text>
+    <text x="437" y="35" font-family="Arial, sans-serif" font-size="16" fill="#333333">42,7%</text>
+    
+    <!-- Fatores Institucionais (27.3%) -->
+    <rect x="0" y="60" width="273" height="40" fill="#FFCA28" rx="5" ry="5" />
+    <text x="15" y="85" font-family="Arial, sans-serif" font-size="16" fill="#333333">Fatores Institucionais</text>
+    <text x="283" y="85" font-family="Arial, sans-serif" font-size="16" fill="#333333">27,3%</text>
+    
+    <!-- Fatores Individuais (15.6%) -->
+    <rect x="0" y="110" width="156" height="40" fill="#66BB6A" rx="5" ry="5" />
+    <text x="15" y="135" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Fatores Individuais</text>
+    <text x="166" y="135" font-family="Arial, sans-serif" font-size="16" fill="#333333">15,6%</text>
+    
+    <!-- Fatores Territoriais (8.9%) -->
+    <rect x="0" y="160" width="89" height="40" fill="#42A5F5" rx="5" ry="5" />
+    <text x="15" y="185" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Fatores Territoriais</text>
+    <text x="99" y="185" font-family="Arial, sans-serif" font-size="16" fill="#333333">8,9%</text>
+  </g>
+  
+  <!-- Informações adicionais -->
+  <rect x="700" y="620" width="500" height="220" fill="#f9f9f9" rx="5" ry="5" />
+  <text x="720" y="645" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Principais Fatores por Categoria:
+  </text>
+  
+  <text x="720" y="675" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Socioeconômicos: Nível socioeconômico familiar (β = -0,38)</text>
+  <text x="720" y="700" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Institucionais: Infraestrutura escolar (β = -0,32)</text>
+  <text x="720" y="725" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Individuais: Distorção idade-série (β = 0,34)</text>
+  <text x="720" y="750" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Territoriais: Região geopolítica (Norte e Nordeste)</text>
+  
+  <text x="720" y="790" font-family="Arial, sans-serif" font-size="14" fill="#333333">Capacidade explicativa total: R² = 0,67</text>
+  <text x="720" y="815" font-family="Arial, sans-serif" font-size="14" fill="#333333">Os resultados demonstram a natureza multifatorial</text>
+  <text x="720" y="835" font-family="Arial, sans-serif" font-size="14" fill="#333333">do abandono, requerendo intervenções sistêmicas.</text>
+  
+  <!-- Linha de separação -->
+  <line x1="40" y1="900" x2="1240" y2="900" stroke="#dddddd" stroke-width="3" />
+  
+  <!-- Seção 3: Perfis -->
+  <rect x="40" y="920" width="1200" height="320" fill="white" rx="10" ry="10" stroke="#dddddd" stroke-width="2" />
+  <text x="70" y="960" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#3949AB">
+    PERFIS IDENTIFICADOS
+  </text>
+  
+  <!-- Perfil 1 -->
+  <rect x="70" y="990" width="270" height="220" fill="#FF5252" fill-opacity="0.1" stroke="#FF5252" stroke-width="2" rx="10" ry="10" />
+  <text x="205" y="1015" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333333">
+    Acadêmico-Vulnerável
+  </text>
+  <text x="205" y="1040" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333333">
+    35,2% dos casos
+  </text>
+  <line x1="100" y1="1050" x2="310" y2="1050" stroke="#FF5252" stroke-width="1" />
+  <text x="205" y="1080" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Baixo desempenho</text>
+  <text x="205" y="1105" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Histórico de reprovações</text>
+  <text x="205" y="1130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Distorção idade-série</text>
+  <text x="205" y="1155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Predominância masculina</text>
+  <text x="205" y="1190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333333">Intervenção recomendada:</text>
+  <text x="205" y="1210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">Tutoria acadêmica</text>
+  
+  <!-- Perfil 2 -->
+  <rect x="360" y="990" width="270" height="220" fill="#FFCA28" fill-opacity="0.1" stroke="#FFCA28" stroke-width="2" rx="10" ry="10" />
+  <text x="495" y="1015" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333333">
+    Trabalho-Estudo
+  </text>
+  <text x="495" y="1040" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333333">
+    26,8% dos casos
+  </text>
+  <line x1="390" y1="1050" x2="600" y2="1050" stroke="#FFCA28" stroke-width="1" />
+  <text x="495" y="1080" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Inserção no mercado</text>
+  <text x="495" y="1105" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Alta carga laboral</text>
+  <text x="495" y="1130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Período noturno</text>
+  <text x="495" y="1155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Estudantes mais velhos</text>
+  <text x="495" y="1190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333333">Intervenção recomendada:</text>
+  <text x="495" y="1210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">Flexibilização curricular</text>
+  
+  <!-- Perfil 3 -->
+  <rect x="650" y="990" width="270" height="220" fill="#66BB6A" fill-opacity="0.1" stroke="#66BB6A" stroke-width="2" rx="10" ry="10" />
+  <text x="785" y="1015" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333333">
+    Desmotivacional
+  </text>
+  <text x="785" y="1040" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333333">
+    22,1% dos casos
+  </text>
+  <line x1="680" y1="1050" x2="890" y2="1050" stroke="#66BB6A" stroke-width="1" />
+  <text x="785" y="1080" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Baixo engajamento</text>
+  <text x="785" y="1105" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Elevado absenteísmo</text>
+  <text x="785" y="1130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Desempenho declinante</text>
+  <text x="785" y="1155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Distribuição equilibrada</text>
+  <text x="785" y="1190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333333">Intervenção recomendada:</text>
+  <text x="785" y="1210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">Metodologias ativas</text>
+  
+  <!-- Perfil 4 -->
+  <rect x="940" y="990" width="270" height="220" fill="#42A5F5" fill-opacity="0.1" stroke="#42A5F5" stroke-width="2" rx="10" ry="10" />
+  <text x="1075" y="1015" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333333">
+    Circunstancial-Familiar
+  </text>
+  <text x="1075" y="1040" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333333">
+    15,9% dos casos
+  </text>
+  <line x1="970" y1="1050" x2="1180" y2="1050" stroke="#42A5F5" stroke-width="1" />
+  <text x="1075" y="1080" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Eventos familiares críticos</text>
+  <text x="1075" y="1105" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Predominância feminina</text>
+  <text x="1075" y="1130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Maior incidência rural</text>
+  <text x="1075" y="1155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">• Abandono abrupto</text>
+  <text x="1075" y="1190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333333">Intervenção recomendada:</text>
+  <text x="1075" y="1210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333333">Apoio psicossocial</text>
+  
+  <!-- Linha de separação -->
+  <line x1="40" y1="1260" x2="1240" y2="1260" stroke="#dddddd" stroke-width="3" />
+  
+  <!-- Seção 4: Recomendações -->
+  <rect x="40" y="1280" width="1200" height="430" fill="white" rx="10" ry="10" stroke="#dddddd" stroke-width="2" />
+  <text x="70" y="1320" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#3949AB">
+    RECOMENDAÇÕES ESTRATÉGICAS
+  </text>
+  
+  <!-- Recomendação 1 -->
+  <rect x="70" y="1350" width="360" height="320" fill="#3949AB" fill-opacity="0.1" rx="10" ry="10" />
+  <text x="90" y="1380" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333333">
+    Para Formuladores de Políticas
+  </text>
+  <line x1="90" y1="1390" x2="410" y2="1390" stroke="#3949AB" stroke-width="2" />
+  <circle cx="100" cy="1420" r="5" fill="#3949AB" />
+  <text x="115" y="1425" font-family="Arial, sans-serif" font-size="14" fill="#333333">Implementar sistemas de alerta precoce</text>
+  <circle cx="100" cy="1450" r="5" fill="#3949AB" />
+  <text x="115" y="1455" font-family="Arial, sans-serif" font-size="14" fill="#333333">Diferenciação territorial de políticas</text>
+  <circle cx="100" cy="1480" r="5" fill="#3949AB" />
+  <text x="115" y="1485" font-family="Arial, sans-serif" font-size="14" fill="#333333">Reformular transições educacionais</text>
+  <circle cx="100" cy="1510" r="5" fill="#3949AB" />
+  <text x="115" y="1515" font-family="Arial, sans-serif" font-size="14" fill="#333333">Investir em infraestrutura em regiões críticas</text>
+  <circle cx="100" cy="1540" r="5" fill="#3949AB" />
+  <text x="115" y="1545" font-family="Arial, sans-serif" font-size="14" fill="#333333">Desenvolver programas intersetoriais</text>
+  
+  <!-- Recomendação 2 -->
+  <rect x="450" y="1350" width="360" height="320" fill="#3949AB" fill-opacity="0.1" rx="10" ry="10" />
+  <text x="470" y="1380" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333333">
+    Para Gestores Escolares
+  </text>
+  <line x1="470" y1="1390" x2="790" y2="1390" stroke="#3949AB" stroke-width="2" />
+  <circle cx="480" cy="1420" r="5" fill="#3949AB" />
+  <text x="495" y="1425" font-family="Arial, sans-serif" font-size="14" fill="#333333">Diversificar ofertas extracurriculares</text>
+  <circle cx="480" cy="1450" r="5" fill="#3949AB" />
+  <text x="495" y="1455" font-family="Arial, sans-serif" font-size="14" fill="#333333">Implementar abordagens por perfil</text>
+  <circle cx="480" cy="1480" r="5" fill="#3949AB" />
+  <text x="495" y="1485" font-family="Arial, sans-serif" font-size="14" fill="#333333">Fortalecer articulação intersetorial</text>
+  <circle cx="480" cy="1510" r="5" fill="#3949AB" />
+  <text x="495" y="1515" font-family="Arial, sans-serif" font-size="14" fill="#333333">Desenvolver clima escolar positivo</text>
+  <circle cx="480" cy="1540" r="5" fill="#3949AB" />
+  <text x="495" y="1545" font-family="Arial, sans-serif" font-size="14" fill="#333333">Capacitar equipes para intervenção precoce</text>
+  
+  <!-- Recomendação 3 -->
+  <rect x="830" y="1350" width="360" height="320" fill="#3949AB" fill-opacity="0.1" rx="10" ry="10" />
+  <text x="850" y="1380" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333333">
+    Modelo de Intervenção Diferenciada
+  </text>
+  <line x1="850" y1="1390" x2="1170" y2="1390" stroke="#3949AB" stroke-width="2" />
+  
+  <text x="850" y="1420" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">Princípios Orientadores:</text>
+  <text x="870" y="1445" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Diferenciação por perfil</text>
+  <text x="870" y="1470" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Abordagem multinível</text>
+  <text x="870" y="1495" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Precocidade na intervenção</text>
+  <text x="870" y="1520" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Intensidade proporcional ao risco</text>
+  <text x="870" y="1545" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Monitoramento contínuo</text>
+  
+  <text x="850" y="1580" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333333">Tecnologias de Suporte:</text>
+  <text x="870" y="1605" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Sistemas de alerta precoce (AUC = 0,83)</text>
+  <text x="870" y="1630" font-family="Arial, sans-serif" font-size="14" fill="#333333">• Dashboard de monitoramento</text>
+  
+  <!-- Rodapé -->
+  <rect y="1730" width="1280" height="70" fill="#3949AB" />
+  <text x="640" y="1765" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    ANÁLISE MULTIDIMENSIONAL DO ABANDONO ESCOLAR NO ENSINO MÉDIO BRASILEIRO
+  </text>
+  <text x="640" y="1785" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    Determinantes Estruturais e Perspectivas de Intervenção • Março 2025
+  </text>
+</svg>

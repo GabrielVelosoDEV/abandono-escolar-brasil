@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Importância dos Fatores Associados ao Abandono Escolar</text>
+  <text x="450" y="70" font-family="Arial" font-size="16" text-anchor="middle">Baseado no Modelo Preditivo (Random Forest)</text>
+  
+  <!-- Eixos -->
+  <line x1="200" y1="550" x2="800" y2="550" stroke="black" stroke-width="2"/>
+  <line x1="200" y1="550" x2="200" y2="100" stroke="black" stroke-width="2"/>
+  
+  <!-- Título do eixo X -->
+  <text x="500" y="590" font-family="Arial" font-size="16" text-anchor="middle">Importância Relativa (%)</text>
+  
+  <!-- Eixo X: Rótulos -->
+  <text x="200" y="570" font-family="Arial" font-size="14" text-anchor="middle">0%</text>
+  <text x="320" y="570" font-family="Arial" font-size="14" text-anchor="middle">5%</text>
+  <text x="440" y="570" font-family="Arial" font-size="14" text-anchor="middle">10%</text>
+  <text x="560" y="570" font-family="Arial" font-size="14" text-anchor="middle">15%</text>
+  <text x="680" y="570" font-family="Arial" font-size="14" text-anchor="middle">20%</text>
+  <text x="800" y="570" font-family="Arial" font-size="14" text-anchor="middle">25%</text>
+  
+  <!-- Barras de importância (ordenadas do mais ao menos importante) -->
+  <!-- Frequência escolar no primeiro bimestre -->
+  <rect x="200" y="120" width="576" height="35" fill="#a50f15"/>
+  <text x="190" y="140" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Frequência escolar</text>
+  <text x="785" y="140" font-family="Arial" font-size="14" font-weight="bold">24.0%</text>
+  
+  <!-- Distorção idade-série -->
+  <rect x="200" y="170" width="480" height="35" fill="#de2d26"/>
+  <text x="190" y="190" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Distorção idade-série</text>
+  <text x="690" y="190" font-family="Arial" font-size="14" font-weight="bold">20.0%</text>
+  
+  <!-- Desempenho em matemática -->
+  <rect x="200" y="220" width="384" height="35" fill="#fb6a4a"/>
+  <text x="190" y="240" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Desempenho em matemática</text>
+  <text x="595" y="240" font-family="Arial" font-size="14" font-weight="bold">16.0%</text>
+  
+  <!-- Atividades extracurriculares -->
+  <rect x="200" y="270" width="280" height="35" fill="#fc9272"/>
+  <text x="190" y="290" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Atividades extracurriculares</text>
+  <text x="490" y="290" font-family="Arial" font-size="14" font-weight="bold">11.7%</text>
+  
+  <!-- Histórico de reprovações -->
+  <rect x="200" y="320" width="216" height="35" fill="#fcbba1"/>
+  <text x="190" y="340" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Histórico de reprovações</text>
+  <text x="425" y="340" font-family="Arial" font-size="14" font-weight="bold">9.0%</text>
+  
+  <!-- Renda familiar -->
+  <rect x="200" y="370" width="168" height="35" fill="#fee5d9"/>
+  <text x="190" y="390" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Renda familiar</text>
+  <text x="377" y="390" font-family="Arial" font-size="14" font-weight="bold">7.0%</text>
+  
+  <!-- Horas de trabalho semanal -->
+  <rect x="200" y="420" width="144" height="35" fill="#fc9272"/>
+  <text x="190" y="440" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Horas de trabalho</text>
+  <text x="353" y="440" font-family="Arial" font-size="14" font-weight="bold">6.0%</text>
+  
+  <!-- Escolaridade da mãe -->
+  <rect x="200" y="470" width="120" height="35" fill="#fcbba1"/>
+  <text x="190" y="490" font-family="Arial" font-size="14" text-anchor="end" font-weight="bold">Escolaridade da mãe</text>
+  <text x="330" y="490" font-family="Arial" font-size="14" font-weight="bold">5.0%</text>
+  
+  <!-- Nota explicativa -->
+  <text x="450" y="630" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic">As porcentagens representam a contribuição relativa de cada variável para o poder preditivo do modelo.</text>
+  <text x="450" y="650" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic">Acurácia do modelo: 83% (AUC = 0.87)</text>
+  
+  <!-- Fonte da informação -->
+  <text x="450" y="680" font-family="Arial" font-size="12" text-anchor="middle" fill="#666666">Projeto: Análise Multidimensional do Abandono Escolar no Ensino Médio Brasileiro</text>
+</svg>

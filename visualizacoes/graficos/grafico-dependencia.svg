@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Título -->
+  <text x="400" y="40" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle">Taxa de Abandono Escolar por Dependência Administrativa</text>
+  
+  <!-- Eixos -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="black" stroke-width="2"></line>
+  <line x1="100" y1="400" x2="100" y2="100" stroke="black" stroke-width="2"></line>
+  
+  <!-- Rótulos dos eixos -->
+  <text x="400" y="440" font-family="Arial" font-size="16" text-anchor="middle">Dependência Administrativa</text>
+  <text x="50" y="250" font-family="Arial" font-size="16" text-anchor="middle" transform="rotate(-90, 50, 250)">Taxa de Abandono (%)</text>
+  
+  <!-- Barras -->
+  <rect x="150" y="175" width="100" height="225" fill="#1e88e5" stroke="white"></rect>
+  <rect x="300" y="130" width="100" height="270" fill="#ff0d57" stroke="white"></rect>
+  <rect x="450" y="260" width="100" height="140" fill="#13b755" stroke="white"></rect>
+  <rect x="600" y="360" width="100" height="40" fill="#7c52ff" stroke="white"></rect>
+  
+  <!-- Valores -->
+  <text x="200" y="160" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">15.3%</text>
+  <text x="350" y="115" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">18.2%</text>
+  <text x="500" y="245" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">9.5%</text>
+  <text x="650" y="345" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">2.7%</text>
+  
+  <!-- Rótulos das barras -->
+  <text x="200" y="420" font-family="Arial" font-size="14" text-anchor="middle">Federal</text>
+  <text x="350" y="420" font-family="Arial" font-size="14" text-anchor="middle">Estadual</text>
+  <text x="500" y="420" font-family="Arial" font-size="14" text-anchor="middle">Municipal</text>
+  <text x="650" y="420" font-family="Arial" font-size="14" text-anchor="middle">Privada</text>
+  
+  <!-- Marcações do eixo Y -->
+  <line x1="95" y1="400" x2="105" y2="400" stroke="black" stroke-width="2"></line>
+  <text x="85" y="405" font-family="Arial" font-size="12" text-anchor="end">0</text>
+  
+  <line x1="95" y1="340" x2="105" y2="340" stroke="black" stroke-width="2"></line>
+  <text x="85" y="345" font-family="Arial" font-size="12" text-anchor="end">5</text>
+  
+  <line x1="95" y1="280" x2="105" y2="280" stroke="black" stroke-width="2"></line>
+  <text x="85" y="285" font-family="Arial" font-size="12" text-anchor="end">10</text>
+  
+  <line x1="95" y1="220" x2="105" y2="220" stroke="black" stroke-width="2"></line>
+  <text x="85" y="225" font-family="Arial" font-size="12" text-anchor="end">15</text>
+  
+  <line x1="95" y1="160" x2="105" y2="160" stroke="black" stroke-width="2"></line>
+  <text x="85" y="165" font-family="Arial" font-size="12" text-anchor="end">20</text>
+  
+  <line x1="95" y1="100" x2="105" y2="100" stroke="black" stroke-width="2"></line>
+  <text x="85" y="105" font-family="Arial" font-size="12" text-anchor="end">25</text>
+  
+  <!-- Grade de fundo -->
+  <line x1="100" y1="340" x2="700" y2="340" stroke="#eeeeee" stroke-width="1"></line>
+  <line x1="100" y1="280" x2="700" y2="280" stroke="#eeeeee" stroke-width="1"></line>
+  <line x1="100" y1="220" x2="700" y2="220" stroke="#eeeeee" stroke-width="1"></line>
+  <line x1="100" y1="160" x2="700" y2="160" stroke="#eeeeee" stroke-width="1"></line>
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#eeeeee" stroke-width="1"></line>
+</svg>
